@@ -6,12 +6,7 @@ body{
 
 #hero{
     width: 592px;
-    margin: 0px auto 72px; /* a primeira é pro "top" a segunda para as laterais e a terceira para o "bottom" o quarto é outra lateral*/
-    /* é a mesma coisa que escrever
-    margin-top: 0;
-    margin-right: auto;
-    margin-botto: 72px;
-    margin-left: auto;*/
+    margin: 0px auto 72px; 
 
 }
 
