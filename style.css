@@ -1,0 +1,69 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    margin: 0px;
+}
+
+#hero{
+    width: 592px;
+    margin: 0px auto 72px; /* a primeira é pro "top" a segunda para as laterais e a terceira para o "bottom" o quarto é outra lateral*/
+    /* é a mesma coisa que escrever
+    margin-top: 0;
+    margin-right: auto;
+    margin-botto: 72px;
+    margin-left: auto;*/
+
+}
+
+#hero img{
+    margin-bottom: 72px;
+}
+
+h1{
+    font-size: 49px;
+    line-height: 56px;
+    font-family: 'Inter', sans-serif;
+    font-weight: normal;
+    margin-bottom: 32px;
+}
+
+h1, span{
+    font-weight: bold;
+}
+
+span, a{
+    color: #FF9900;
+    
+
+}
+
+
+p, #footer{
+    color: #7D7987;
+    font-size: 14px;
+    line-height: 28px;
+}
+
+#footer{
+    margin-top: 300px;
+}
+
+#footer a + a /*pegue o a que anterior a ele tenha um a*/{
+    margin-left: 28px;
+    
+}
+
+#line{
+    width: 568px;
+    height: 0px;
+
+    margin: 0px auto 8px;
+
+    border: 1px solid #ECEFF2;
+}
+
+#balls{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
